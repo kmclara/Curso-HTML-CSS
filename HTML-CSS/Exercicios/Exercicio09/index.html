@@ -20,5 +20,32 @@
     <p>Faça a comparação e veja a diferença!</p>
     <p>Dê uma olhadinha no código - Usando a tag code: &#x1F440 </p>   
     <img src="image/pictagcode.png" alt="Tag code">
+    <p><em>Entretanto..</em> Se fizermos uma demonstração de código que é necessário de uma identação maior e não é apenas demonstrado em uma linha apenas - como acima -, ou seja, uma série de códigos que se interligam, apenas a tag code não irá conseguir fazer a demonstração certa!</p>
+    <p>Vamos ver abaixo uma demonstração de código da linguagem <mark style="background-color: darkkhaki;">Python.</mark> </p>
+    <p>Exemplo apenas com a tag CODE: </p>
+    <code>
+        num = int(input("Digite um número: "))
+        if num % 2 == 0:
+            print("O número {} é PAR".format(num))
+        else: 
+            pritn("O número {} é ÍMPAR".format(num))
+        print("Fim do Programa!")
+    </code>
+    <p>Percebe-se que os código em Python não ficaram identados como deveriam ficar. Ficam postos um na frente do outro, sem nenhum tipo de formatação.</p>
+    <p>Para resolvermos esse tipo de problema, usamos então a tag pre e dentro dela, colocamos a tag code com os códigos que queremos demonstrar.</p>
+    <p>Exemplo do uso da tag pre: </p>
+    <pre>
+        <code>
+            num = int(input("Digite um número: "))
+            if num % 2 == 0:
+                print("O número {} é PAR".format(num))
+            else: 
+                pritn("O número {} é ÍMPAR".format(num))
+            print("Fim do Programa!")
+        </code>
+    </pre>
+    <p>Agora sim, nosso código ficou identado e bem feito!</p>
+    <p>Dê uma olhadinha no código - Usando a tag pre: &#x1F440 </p>
+    <img src="image/pictagpre (1).png" alt="Tag pre">
 </body>
 </html>
